@@ -12,10 +12,11 @@
 }
 body {
     font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
-    line-height: 1.85;
+    line-height: 1.9;
     color: #444;
     background-color: #fff8f0;
     padding: 20px;
+    background-image: url("bg.png");
     background-size: 300px;
     background-repeat: repeat;
     background-position: top left;
@@ -34,12 +35,12 @@ body {
 
 /* 主标题 加边框样式 */
 .article-title {
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 500;
     text-align: center;
     margin: 10px 0 25px;
     color: #2c3e50;
-    line-height: 1.4;
+    line-height: 1.5;
     letter-spacing: 2px;
     padding: 18px;
     background: #fff0e0;
@@ -48,15 +49,15 @@ body {
 }
 .article-title small {
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     color: #e37b7b;
-    margin: 8px 0;
+    margin: 10px 0;
     letter-spacing: 1px;
 }
 .article-title span {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #4a90e2;
     margin-top: 8px;
@@ -67,7 +68,7 @@ body {
     text-align: center;
     color: #999;
     font-size: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     font-weight: 300;
 }
 
@@ -75,24 +76,23 @@ body {
 .theme-block {
     border: 1px solid #e8d6c3;
     border-radius: 12px;
-    padding: 25px;
-    margin: 30px 0;
-    background: #fff2e6; /* 温馨暖色 */
+    padding: 28px;
+    margin: 32px 0;
+    background: #fff2e6;
 }
 
 .intro {
     font-size: 16px;
     color: #555;
-    margin-bottom: 0;
     text-indent: 2em;
     font-weight: 400;
 }
 
 /* 章节标题 */
 .chapter-title {
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 500;
-    margin: 0 0 20px;
+    margin: 0 0 22px;
     color: #ffffff;
     border-left: 5px solid #e97777;
     padding: 10px 16px;
@@ -104,9 +104,9 @@ body {
 
 /* 小节标题 */
 .section-title {
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 500;
-    margin: 26px 0 12px;
+    margin: 28px 0 14px;
     color: #e37b7b;
     padding-left: 10px;
     border-left: 3px solid #f6c8c8;
@@ -116,16 +116,16 @@ body {
 .paragraph {
     font-size: 16px;
     color: #444;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
     text-indent: 2em;
     font-weight: 400;
 }
 .list {
-    margin: 15px 0;
+    margin: 18px 0;
     padding-left: 40px;
 }
 .list li {
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     font-size: 16px;
     color: #444;
     font-weight: 400;
@@ -135,7 +135,7 @@ body {
     color: #e97777;
 }
 .conclusion {
-    margin-top: 0;
+    margin-top: 10px;
     padding-top: 25px;
     border-top: 1px solid #eee;
     font-size: 16px;
@@ -149,7 +149,7 @@ body {
     height: 480px;
     object-fit: cover;
     border-radius: 8px;
-    margin: 22px auto;
+    margin: 25px auto;
     display: block;
 }
 .copyright {
@@ -206,11 +206,11 @@ body {
         <div class="theme-block">
             <h2 class="chapter-title">01 学会自我调节</h2>
             <p class="paragraph">到底什么才是真正的厉害？</p>
+            <p class="paragraph">学会转变认知评价，是成长的关键一步。当我们跳出固有眼光，才能重新看见自己骨子里的厉害。</p>
 
             <img class="art-img" src="2.jpg" alt="心态自我调节">
-
+            
             <h3 class="section-title">1. 换个角度看懂“厉害”</h3>
-            <p class="paragraph">学会转变认知评价，是成长的关键一步。当我们跳出固有眼光，才能重新看见自己骨子里的厉害。</p>
             <p class="paragraph">生活里每每遇到不顺，碰壁受挫时，我们很容易感慨：总算见识到社会的厉害了。</p>
             <p class="paragraph">我们眼里社会的厉害，是现实的压力，会让人碰壁，疲惫，让人觉得无奈又无力。这份对“社会的厉害”的恐惧与敬畏，很容易让我们开始抱怨环境，否定自己慢慢陷入消极与内耗之中。</p>
             <p class="paragraph">很多人因此忽略了，在面对“社会的厉害”的同时，我们更应当看见自己的厉害。</p>
@@ -220,25 +220,22 @@ body {
 
             <h3 class="section-title">2. 调整心态的方法</h3>
             <p class="paragraph">根据心理学与科学原理，从看清情绪、转变认知、身心同调三方面，稳住内心状态。</p>
+            
             <img class="art-img" src="3.jpg" alt="情绪管理内心平静">
-            <ol class="list">
-                <li>
-                    <span class="emphasis">看清情绪，不钻牛角尖</span>
-                    <p class="paragraph">书籍《情商》与《重塑杏仁核》中提到：“直白说清自己的情绪，能唤醒大脑理性思考，平复情绪冲动，减少胡思乱想，从情绪漩涡里抽离出来。”</p>
-                    <p class="paragraph">像旁观者一样分清“委屈不是愤怒、焦虑不等于事实”，能激活大脑理性区域，降低杏仁核活跃度，就不容易被负面情绪影响。</p>
-                    <p class="paragraph">也就是去作为情绪的主人去观察，理解情绪。了解明晰内心所想，就不易情绪失控。</p>
-                </li>
-                <li>
-                    <span class="emphasis">转变认知，不自我否定</span>
-                    <p class="paragraph">很多难过的不是事情本身，而是消极的想法。心理学家埃利斯《理性情绪》的ABC理论指出，决定心情的不是事件，是看待事情的角度。</p>
-                    <p class="paragraph">遇事别只想着“我搞砸了”，要转变心态，往积极的方向思考，如“这件事让我们积累了经验，下次不会再去踩坑。”“我扛住了这份压力，我真的很厉害”放下消极的想法，内耗自然就减少了。</p>
-                </li>
-                <li>
-                    <span class="emphasis">身心同调，不陷入内耗</span>
-                    <p class="paragraph">心理与生理会双向影响，科学证实：情绪紧绷会引发交感神经兴奋、心率加快、肩颈僵硬，而身体的紧绷又会反过来影响心理状态，使人容易焦虑烦躁，陷入内耗。</p>
-                    <p class="paragraph">因此通过养生而养心就显得尤为重要。以身体的松弛带动内心平静，刻意放缓呼吸，坚持锻炼身体，保持健康的作息，远离熬夜透支。通过健康的生活习惯，使气机调畅，杂念随之减少，从根源切断内耗。</p>
-                </li>
-            </ol>
+            
+            <p class="paragraph"><span class="emphasis">看清情绪，不钻牛角尖</span></p>
+            <p class="paragraph">书籍《情商》与《重塑杏仁核》中提到：“直白说清自己的情绪，能唤醒大脑理性思考，平复情绪冲动，减少胡思乱想，从情绪漩涡里抽离出来。”</p>
+            <p class="paragraph">像旁观者一样分清“委屈不是愤怒、焦虑不等于事实”，能激活大脑理性区域，降低杏仁核活跃度，就不容易被负面情绪影响。</p>
+            <p class="paragraph">也就是去作为情绪的主人去观察，理解情绪。了解明晰内心所想，就不易情绪失控。</p>
+
+            <p class="paragraph"><span class="emphasis">转变认知，不自我否定</span></p>
+            <p class="paragraph">很多难过的不是事情本身，而是消极的想法。心理学家埃利斯《理性情绪》的ABC理论指出，决定心情的不是事件，是看待事情的角度。</p>
+            <p class="paragraph">遇事别只想着“我搞砸了”，要转变心态，往积极的方向思考，如“这件事让我们积累了经验，下次不会再去踩坑。”“我扛住了这份压力，我真的很厉害”放下消极的想法，内耗自然就减少了。</p>
+
+            <p class="paragraph"><span class="emphasis">身心同调，不陷入内耗</span></p>
+            <p class="paragraph">心理与生理会双向影响，科学证实：情绪紧绷会引发交感神经兴奋、心率加快、肩颈僵硬，而身体的紧绷又会反过来影响心理状态，使人容易焦虑烦躁，陷入内耗。</p>
+            <p class="paragraph">因此通过养生而养心就显得尤为重要。以身体的松弛带动内心平静，刻意放缓呼吸，坚持锻炼身体，保持健康的作息，远离熬夜透支。通过健康的生活习惯，使气机调畅，杂念随之减少，从根源切断内耗。</p>
+
             <p class="paragraph">以清醒看懂情绪，以认知解开内耗，以养生治疗内心，学会调整心态，方可从容面对挑战。</p>
         </div>
 
